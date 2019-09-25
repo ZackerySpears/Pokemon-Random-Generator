@@ -67,3 +67,34 @@ h1 {
     position: fixed;
     right: 530px;
 }
+ 
+.buttonDec {
+    position: absolute;
+    top:200px;
+    right: 28%;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: yellow;
+    
+}
+
+#pokemonGen {
+    height:40px;
+    font-size: 30px;
+    text-align: center;
+    top: 100px;
+    left:70px;
+    border-radius: 20px;   
+}
+
+.buttonDec:focus {
+    outline:none;
+}
+
+.buttonDec:hover {
+    border: solid 2px red;
+}
+
+.numOfPokemon {
+    font-size: 50px;
+}
