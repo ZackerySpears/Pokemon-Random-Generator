@@ -43,7 +43,8 @@ function randomPokemon() {
     document.getElementById("pokemonGen").value = gen[Math.floor(Math.random() * gen.length)];
 }
 
-
-// var randomPokemon = gen[Math.floor(Math.random()*gen.length)];
-
-// document.getElementById("pokemonGenerator").innerText = randomPokemon;
+var img = ["", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png"]
+     function imgRandom(imgArr) {
+        return imgArr[Math.floor(Math.random() * imgArr.length)];
+    }
+ console.log(imgRandom(img));

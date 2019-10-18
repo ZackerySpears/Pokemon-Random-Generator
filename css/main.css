@@ -4,9 +4,9 @@ body {
 }
 
 #leftColum {
-    float:left; 
+     float:left; 
     width:500px; 
-    height:800px; 
+    height:800px;  
     background-color:white; 
     border:solid red; 
     margin: 0;
@@ -20,6 +20,10 @@ body {
 ul{
     font-size: 20pt;
     color: red;
+}
+ol {
+    color: black;
+    padding-bottom: 3px;
 }
 
 #pokemonGenerator {
@@ -98,3 +102,7 @@ h1 {
 .numOfPokemon {
     font-size: 50px;
 }
+
+
+
+
